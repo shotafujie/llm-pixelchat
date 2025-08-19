@@ -1,0 +1,45 @@
+{
+  "name": "llm-pixelchat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A sophisticated pixel-art chatbot interface powered by Ollama LLMs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "framer-motion": "^10.0.0",
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "keywords": [
+    "ollama",
+    "llm",
+    "chatbot",
+    "pixel-art",
+    "react",
+    "typescript",
+    "nextjs"
+  ],
+  "author": "shotafujie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shotafujie/llm-pixelchat.git"
+  }
+}
